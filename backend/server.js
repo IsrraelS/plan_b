@@ -6,7 +6,7 @@ const { notFound, errorHandler } = require("./middleware/errorMiddleware");
 
 const connectDB = require("./config/db");
 
-const app = express()
+const app = express();
 
 // Connect Database
 
